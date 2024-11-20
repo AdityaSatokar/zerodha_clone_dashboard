@@ -14,7 +14,7 @@ const BuyActionWindow = ({ uid }) => {
   const generalContext = useContext(GeneralContext);
 
   const handleBuyClick = () => {
-    axios.post("https://zerodha-clone-backend-adityasatokar.vercel.app/newOrder", {
+    axios.post("https://zerodha-clone-backend-aditya-satokar.vercel.app/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
